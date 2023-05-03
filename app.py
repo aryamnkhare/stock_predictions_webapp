@@ -70,8 +70,8 @@ if selected == "Prediction and Analysis":
     st.sidebar.write('Ticker of',add_selectbox)
 
     if analysis == 'Home':
-        image = Image.open('\analysis.jpg')
-        st.image(image)
+        #image = Image.open('\analysis.jpg')
+        #st.image(image)
 
         st.subheader('Welcome to the stock price prediction and visualization web app')
 
